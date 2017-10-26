@@ -1,5 +1,11 @@
 <?php
 
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$host = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$database = substr($url["path"], 1);
+
 return [
 
     /*
@@ -41,11 +47,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'r4919aobtbi97j46.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'),
+            'host' => $host,
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'elnjslnhqqn17t4n'),
-            'username' => env('DB_USERNAME', 'o0liu7gdtf2ucmb2'),
-            'password' => env('DB_PASSWORD', 'tu93d0562ejvu0sg'),
+            'database' => $database,
+            'username' => $username,
+            'password' => $password,
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',

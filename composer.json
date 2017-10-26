@@ -16,6 +16,13 @@
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~6.0"
     },
+
+    "require": {
+        "laravel/framework": "4.2.*",
+        "indatus/dispatcher": "1.4.*",
+        "ext-mbstring": "*"
+        },
+        
     "autoload": {
         "classmap": [
             "database/seeds",
