@@ -1,0 +1,6 @@
+"id";"migration";"batch"
+1;"2014_10_12_000000_create_users_table";1
+2;"2014_10_12_100000_create_password_resets_table";1
+3;"2017_10_26_163741_create_td_table";1
+4;"2017_10_26_163923_create_tournaments_table";2
+5;"2017_10_26_163938_create_pitchers_table";3
