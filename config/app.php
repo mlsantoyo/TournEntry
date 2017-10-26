@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://calm-everglades-23342.herokuapp.com/'),
 
     /*
     |--------------------------------------------------------------------------
