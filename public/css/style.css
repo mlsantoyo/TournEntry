@@ -1,0 +1,38 @@
+
+.bg-image { 
+
+ 
+
+
+     
+  /* The image used */
+    /* background-image: url("../images/pitcher.jpg"); */
+
+
+
+    /* Full height */
+    /* /* height: 100%; */
+    
+
+    /* Center and scale the image nicely */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+  .bg {    
+  background-color: darkslategrey;
+  padding: 20px;
+  margin-top: -50px;
+   
+}
+
+
+.welcome {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  }
+
+h1, p, a {
+  padding: 30px;
+}
